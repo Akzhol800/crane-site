@@ -1,43 +1,181 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Аренда автокрана в Алматы</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin:0; background: linear-gradient(180deg,#f8f9fa,#e9ecef); color:#222; text-align:center; }
-        header { background:#f9c300; padding:22px 10px; font-size:22px; font-weight:700; box-shadow:0 3px 8px rgba(0,0,0,0.12); }
-        .wrap { max-width:960px; margin:28px auto; padding:18px; background:#fff; border-radius:12px; box-shadow:0 8px 30px rgba(0,0,0,0.08); }
-        .hero-img { width:100%; max-width:840px; border-radius:10px; box-shadow:0 8px 30px rgba(0,0,0,0.12); }
-        .desc { margin:18px 0 8px; font-size:16px; color:#444; }
-        .price { font-size:24px; font-weight:800; color:#198754; margin:6px 0 14px; }
-        .buttons { margin:14px 0; }
-        .btn { display:inline-block; text-decoration:none; padding:12px 22px; border-radius:8px; font-weight:700; margin:6px; transition:transform .14s ease, box-shadow .14s; }
-        .btn:active{transform:translateY(1px);}
-        .wh { background:#25D366; color:#fff; box-shadow:0 6px 18px rgba(37,211,102,0.18); }
-        .call { background:#0d6efd; color:#fff; box-shadow:0 6px 18px rgba(13,110,253,0.15); }
-        .footer { margin-top:18px; color:#666; font-size:13px; }
-        @media(max-width:600px){
-            header{font-size:18px}
-            .price{font-size:20px}
-            .wrap{margin:14px; padding:14px}
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ИП GGG — Аренда автокранов в Алматы</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #111;
+    }
+    header {
+      background: #0d6efd;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .hero {
+      background: #000;
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    .hero p {
+      font-size: 18px;
+      color: #ccc;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 20px;
+    }
+    .photo {
+      background: #d0d0d0;
+      height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    .card h3 {
+      margin: 10px 0 5px;
+      color: #0d6efd;
+    }
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      color: #111;
+    }
+    .owner {
+      background: #fff;
+      margin-top: 40px;
+      border-radius: 12px;
+      padding: 30px 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .owner .photo {
+      width: 180px;
+      height: 180px;
+      margin: 0 auto 15px;
+      border-radius: 50%;
+    }
+    .owner h2 {
+      margin: 0;
+      color: #0d6efd;
+    }
+    .owner p {
+      color: #444;
+    }
+    .services {
+      background: #000;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .services h2 {
+      color: #0d6efd;
+      margin-bottom: 20px;
+    }
+    .contacts {
+      background: #0d6efd;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    .contacts a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contacts p {
+      margin: 5px 0;
+    }
+  </style>
 </head>
 <body>
-    <header>Аренда автокрана в Алматы</header>
 
-    <div class="wrap">
-        <img src="crane.jpg" alt="Автокран" class="hero-img">
-        <p class="desc">Надёжный автокран для любых строительных задач — доставка по Алматы и области, опытные операторы.</p>
-        <div class="price">125 000 ₸ / сутки</div>
+<header>ИП GGG — Аренда автокранов в Алматы</header>
 
-        <div class="buttons">
-            <a class="btn wh" href="https://wa.me/77756294555" target="_blank">📲 Написать в WhatsApp</a>
-            <a class="btn call" href="tel:+77756294555">📞 Позвонить</a>
-        </div>
+<section class="hero">
+  <h1>Аренда автокранов 25 тонн</h1>
+  <p>Надёжные автокраны с опытными операторами. Работаем круглосуточно по Алматы и области.</p>
+</section>
 
-        <div class="footer">Звоните или пишите — обсудим условия аренды</div>
+<div class="container">
+  <h2 style="text-align:center;color:#0d6efd;">Наши автокраны</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="photo">Фото крана</div>
+      <h3>Автокран 25 тонн</h3>
+      <p class="price">125 000 ₸ / день</p>
     </div>
+    <div class="card">
+      <div class="photo">Фото крана</div>
+      <h3>Автокран 25 тонн</h3>
+      <p class="price">125 000 ₸ / день</p>
+    </div>
+    <div class="card">
+      <div class="photo">Фото крана</div>
+      <h3>Автокран 25 тонн</h3>
+      <p class="price">125 000 ₸ / день</p>
+    </div>
+    <div class="card">
+      <div class="photo">Фото крана</div>
+      <h3>Автокран 25 тонн</h3>
+      <p class="price">125 000 ₸ / день</p>
+    </div>
+  </div>
+
+  <div class="owner">
+    <div class="photo">Фото владельца</div>
+    <h2>Женыс Жумагалиевич</h2>
+    <p>14 лет опыта в сфере спецтехники. Ответственный подход, быстрая подача, доступные цены. Работаем круглосуточно и по всем районам Алматы.</p>
+  </div>
+</div>
+
+<section class="services">
+  <h2>Что мы делаем</h2>
+  <p>
+    Мы предоставляем услуги аренды автокранов грузоподъёмностью 25 тонн для строительных, монтажных и погрузочно-разгрузочных работ. 
+    Наша техника проходит регулярное обслуживание, а операторы имеют многолетний опыт работы. 
+    Выполняем заказы на стройках, промышленных объектах и частных участках. 
+    Гарантируем оперативную подачу автокрана, безопасность и надёжность выполнения задач. 
+    Работаем круглосуточно и без выходных — всегда готовы помочь с любыми задачами по подъёму и перемещению грузов.
+  </p>
+</section>
+
+<section class="contacts">
+  <p>📞 Телефон: <a href="tel:+77756294555">+7 775 629 4555</a></p>
+  <p>💬 WhatsApp: <a href="https://wa.me/77756294555" target="_blank">Написать в WhatsApp</a></p>
+  <p>📧 Email: <a href="mailto:Akzholadelbaev00747@gmail.com">Akzholadelbaev00747@gmail.com</a></p>
+</section>
+
 </body>
 </html>
