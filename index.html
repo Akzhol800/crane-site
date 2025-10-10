@@ -1,130 +1,152 @@
 <!DOCTYPE html>
-<html lang="kk">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ИП GGG — Құрылыс крандары</title>
+  <title>ИП GGG — Аренда автокранов в Алматы</title>
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #0b0c10;
+      background-color: #0a0a0a;
       color: #fff;
-    }
-    header {
-      background: linear-gradient(90deg, #0b0c10, #1f2833);
-      padding: 20px;
-      text-align: center;
-      border-bottom: 2px solid #45a29e;
-    }
-    header h1 {
       margin: 0;
-      color: #66fcf1;
+      padding: 0;
+    }
+
+    header {
+      background-color: #004aad;
+      text-align: center;
+      padding: 30px 10px;
+    }
+
+    header h1 {
       font-size: 2em;
+      margin: 0;
     }
+
     header p {
-      color: #c5c6c7;
-      margin-top: 5px;
+      font-size: 1.2em;
+      color: #dcdcdc;
     }
-    .section {
-      padding: 30px;
+
+    .container {
+      width: 90%;
+      margin: 30px auto;
       text-align: center;
     }
-    .section h2 {
-      color: #66fcf1;
+
+    .owner {
+      margin: 40px 0;
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
     }
+
+    .owner h2 {
+      color: #0094ff;
+    }
+
     .cards {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
-      margin-top: 20px;
     }
+
     .card {
-      background-color: #1f2833;
-      border: 1px solid #45a29e;
+      background: #1b1b1b;
+      padding: 15px;
       border-radius: 10px;
       width: 250px;
-      padding: 15px;
-      transition: transform 0.3s ease;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
-    .card:hover {
-      transform: scale(1.05);
-    }
+
     .card img {
       width: 100%;
-      border-radius: 8px;
+      border-radius: 10px;
+      margin-bottom: 10px;
     }
+
     .card h3 {
-      color: #66fcf1;
-      margin: 10px 0 5px;
-    }
-    .card p {
-      color: #c5c6c7;
       margin: 5px 0;
+      color: #00aaff;
     }
-    .owner {
-      margin-top: 40px;
+
+    .contact {
+      background: #111;
       padding: 20px;
-      background: #1f2833;
-      border-top: 2px solid #45a29e;
+      border-radius: 10px;
+      margin-top: 30px;
     }
-    .owner h3 {
-      color: #66fcf1;
+
+    a.whatsapp {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
     }
+
     footer {
       text-align: center;
-      padding: 15px;
-      background: #0b0c10;
-      border-top: 2px solid #45a29e;
-      color: #c5c6c7;
-      font-size: 0.9em;
+      padding: 20px;
+      background: #004aad;
+      color: #fff;
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>ИП GGG</h1>
-    <p>Құрылыс крандарын жалға беру — 24/7</p>
+    <p>Аренда автокранов в Алматы — от 125 000 ₸ в день</p>
   </header>
 
-  <section class="section">
-    <h2>Қызметтеріміз</h2>
-    <p>Біз әртүрлі көлемдегі құрылыс крандарын ұсынамыз. Барлық техника сапалы тексерістен өткен және тәжірибелі операторлармен бірге беріледі.</p>
+  <div class="container">
+    <div class="owner">
+      <h2>Женис Жумагалиевич</h2>
+      <p>14 лет опыта в сфере грузоподъёмных работ. Мы предоставляем автокраны для строительства, монтажа, демонтажа и других работ в городе Алматы и области. Работаем круглосуточно, надёжно и по договору. 
+      Наша команда гарантирует качество, безопасность и своевременность выполнения заказа.</p>
+      <p><strong>Телефон:</strong> +7 775 629 4555</p>
+      <p><strong>Email:</strong> Akzholadelbaev00747@gmail.com</p>
+      <a href="https://wa.me/77756294555" class="whatsapp" target="_blank">Написать в WhatsApp</a>
+    </div>
 
+    <h2>Наши краны</h2>
     <div class="cards">
       <div class="card">
-        <img src="crane1.jpg" alt="Кран 1">
-        <h3>Кран №1</h3>
-        <p>Бағасы: <strong>125 000 тг/күн</strong></p>
+        <img src="crane1.jpg" alt="Автокран 1">
+        <h3>Автокран №1</h3>
+        <p>125 000 ₸ / день</p>
       </div>
       <div class="card">
-        <img src="crane2.jpg" alt="Кран 2">
-        <h3>Кран №2</h3>
-        <p>Бағасы: <strong>125 000 тг/күн</strong></p>
+        <img src="crane2.jpg" alt="Автокран 2">
+        <h3>Автокран №2</h3>
+        <p>125 000 ₸ / день</p>
       </div>
       <div class="card">
-        <img src="crane3.jpg" alt="Кран 3">
-        <h3>Кран №3</h3>
-        <p>Бағасы: <strong>125 000 тг/күн</strong></p>
+        <img src="crane3.jpg" alt="Автокран 3">
+        <h3>Автокран №3</h3>
+        <p>125 000 ₸ / день</p>
       </div>
       <div class="card">
-        <img src="crane4.jpg" alt="Кран 4">
-        <h3>Кран №4</h3>
-        <p>Бағасы: <strong>125 000 тг/күн</strong></p>
+        <img src="crane4.jpg" alt="Автокран 4">
+        <h3>Автокран №4</h3>
+        <p>125 000 ₸ / день</p>
       </div>
     </div>
-  </section>
 
-  <section class="owner">
-    <h3>Владелец: Женис Жумагалиевич</h3>
-    <p>14 жылдық тәжірибесі бар маман. Сапалы әрі сенімді қызмет көрсетуге кепілдік береді. Біз ірі нысандармен де, жеке тапсырыстармен де жұмыс істейміз. Қауіпсіздік — басты назарда. Әр клиентке жеке көзқарас пен қолайлы шарттар ұсынамыз.</p>
-    <p>Телефон: <strong>+7 775 629 4555</strong></p>
-    <p>Email: <strong>Akzholadelbaev00747@gmail.com</strong></p>
-  </section>
+    <div class="contact">
+      <h3>Работаем круглосуточно в Алматы</h3>
+      <p>Свяжитесь с нами для аренды техники — поможем подобрать оптимальный вариант под ваши задачи!</p>
+    </div>
+  </div>
 
   <footer>
-    © 2025 ИП GGG | Барлық құқықтар қорғалған
+    © 2025 ИП GGG | Аренда автокранов в Алматы
   </footer>
 </body>
 </html>
