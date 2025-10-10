@@ -1,116 +1,130 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="kk">
 <head>
   <meta charset="UTF-8">
-  <meta name="google-site-verification" content="XXXXXXXXXXXXXXXXXXXXX">
-  <title>ИП GGG — Аренда автокранов</title>
-</head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ИП GGG — Аренда автокранов в Алматы</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ИП GGG — Құрылыс крандары</title>
   <style>
-    :root{
-      --blue:#0d6efd;
-      --dark:#0b0b0b;
-      --bg:#f4f6f9;
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0b0c10;
+      color: #fff;
     }
-    *{box-sizing:border-box}
-    body{font-family:Arial, sans-serif; margin:0; background:var(--bg); color:var(--dark);}
-    header{background:var(--blue); color:#fff; padding:20px; text-align:center; font-weight:700; font-size:22px;}
-    .container{max-width:1100px; margin:28px auto; padding:0 16px;}
-    .hero{background:#001f3f; color:#fff; border-radius:10px; padding:30px; text-align:center; box-shadow:0 6px 24px rgba(13,110,253,0.12);}
-    .hero h1{margin:0 0 8px; font-size:28px;}
-    .hero p{margin:0; color:#cfe6ff;}
-    .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:18px; margin-top:22px;}
-    .card{background:#fff; border-radius:10px; padding:14px; text-align:center; box-shadow:0 8px 24px rgba(2,6,23,0.06);}
-    .card img{width:100%; height:160px; object-fit:cover; border-radius:8px; background:#e6e6e6;}
-    .card h3{color:var(--blue); margin:10px 0 6px; font-size:18px;}
-    .price{font-size:18px; font-weight:800; color:#0b8a4e;}
-    .owner{display:flex; gap:20px; align-items:center; margin-top:28px; background:#fff; padding:18px; border-radius:12px; box-shadow:0 8px 30px rgba(2,6,23,0.06);}
-    .owner .photo{width:140px; height:140px; border-radius:50%; object-fit:cover; background:#e6e6e6;}
-    .owner-info h2{margin:0; color:var(--blue);}
-    .owner-info p{margin:6px 0; color:#444;}
-    .services{background:#0b0b0b; color:#fff; margin-top:24px; padding:22px; border-radius:10px; text-align:left;}
-    .services h2{color:var(--blue); margin:0 0 10px;}
-    .contacts{display:flex; gap:18px; flex-wrap:wrap; justify-content:center; margin:22px 0;}
-    .btn{display:inline-block; padding:12px 18px; border-radius:8px; text-decoration:none; font-weight:700;}
-    .wh{background:#25D366; color:#fff;}
-    .call{background:#007bff; color:#fff;}
-    .email{background:#444; color:#fff;}
-    footer{padding:18px; text-align:center; color:#666; font-size:14px; margin-top:12px;}
-    @media(max-width:720px){
-      .owner{flex-direction:column; text-align:center;}
-      .owner .photo{width:120px; height:120px;}
+    header {
+      background: linear-gradient(90deg, #0b0c10, #1f2833);
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #45a29e;
+    }
+    header h1 {
+      margin: 0;
+      color: #66fcf1;
+      font-size: 2em;
+    }
+    header p {
+      color: #c5c6c7;
+      margin-top: 5px;
+    }
+    .section {
+      padding: 30px;
+      text-align: center;
+    }
+    .section h2 {
+      color: #66fcf1;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background-color: #1f2833;
+      border: 1px solid #45a29e;
+      border-radius: 10px;
+      width: 250px;
+      padding: 15px;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card h3 {
+      color: #66fcf1;
+      margin: 10px 0 5px;
+    }
+    .card p {
+      color: #c5c6c7;
+      margin: 5px 0;
+    }
+    .owner {
+      margin-top: 40px;
+      padding: 20px;
+      background: #1f2833;
+      border-top: 2px solid #45a29e;
+    }
+    .owner h3 {
+      color: #66fcf1;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #0b0c10;
+      border-top: 2px solid #45a29e;
+      color: #c5c6c7;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>ИП GGG</h1>
+    <p>Құрылыс крандарын жалға беру — 24/7</p>
+  </header>
 
-<header>ИП GGG — Аренда автокранов в Алматы</header>
+  <section class="section">
+    <h2>Қызметтеріміз</h2>
+    <p>Біз әртүрлі көлемдегі құрылыс крандарын ұсынамыз. Барлық техника сапалы тексерістен өткен және тәжірибелі операторлармен бірге беріледі.</p>
 
-<div class="container">
-  <div class="hero">
-    <h1>Автокраны 25 тонн — подача в Алматы и области</h1>
-    <p>Надёжная техника, опытные операторы, работа круглосуточно. Цена: 125 000 ₸/день.</p>
-  </div>
-
-  <h2 style="color:var(--blue); margin-top:20px;">Наши автокраны</h2>
-  <div class="cards">
-    <div class="card">
-      <img src="crane1.jpg" alt="Автокран 1">
-      <h3>Автокран 25 тонн</h3>
-      <div class="price">125 000 ₸ / день</div>
+    <div class="cards">
+      <div class="card">
+        <img src="crane1.jpg" alt="Кран 1">
+        <h3>Кран №1</h3>
+        <p>Бағасы: <strong>125 000 тг/күн</strong></p>
+      </div>
+      <div class="card">
+        <img src="crane2.jpg" alt="Кран 2">
+        <h3>Кран №2</h3>
+        <p>Бағасы: <strong>125 000 тг/күн</strong></p>
+      </div>
+      <div class="card">
+        <img src="crane3.jpg" alt="Кран 3">
+        <h3>Кран №3</h3>
+        <p>Бағасы: <strong>125 000 тг/күн</strong></p>
+      </div>
+      <div class="card">
+        <img src="crane4.jpg" alt="Кран 4">
+        <h3>Кран №4</h3>
+        <p>Бағасы: <strong>125 000 тг/күн</strong></p>
+      </div>
     </div>
+  </section>
 
-    <div class="card">
-      <img src="crane2.jpg" alt="Автокран 2">
-      <h3>Автокран 25 тонн</h3>
-      <div class="price">125 000 ₸ / день</div>
-    </div>
+  <section class="owner">
+    <h3>Владелец: Женис Жумагалиевич</h3>
+    <p>14 жылдық тәжірибесі бар маман. Сапалы әрі сенімді қызмет көрсетуге кепілдік береді. Біз ірі нысандармен де, жеке тапсырыстармен де жұмыс істейміз. Қауіпсіздік — басты назарда. Әр клиентке жеке көзқарас пен қолайлы шарттар ұсынамыз.</p>
+    <p>Телефон: <strong>+7 775 629 4555</strong></p>
+    <p>Email: <strong>Akzholadelbaev00747@gmail.com</strong></p>
+  </section>
 
-    <div class="card">
-      <img src="crane3.jpg" alt="Автокран 3">
-      <h3>Автокран 25 тонн</h3>
-      <div class="price">125 000 ₸ / день</div>
-    </div>
-
-    <div class="card">
-      <img src="crane4.jpg" alt="Автокран 4">
-      <h3>Автокран 25 тонн</h3>
-      <div class="price">125 000 ₸ / день</div>
-    </div>
-  </div>
-
-  <div class="owner" style="margin-top:26px;">
-    <img class="photo" src="owner.jpg" alt="Женис Жумагалиевич">
-    <div class="owner-info">
-      <h2>Женис Жумагалиевич</h2>
-      <p><strong>14 лет опыта</strong> в эксплуатации и аренде спецтехники. Ответственный подход, быстрая подача техники и внимательное отношение к технике безопасности.</p>
-      <p style="margin-top:6px; color:#666;">Работаем круглосуточно — оперативно и надежно.</p>
-    </div>
-  </div>
-
-  <div class="services" style="margin-top:22px;">
-    <h2>Что мы делаем</h2>
-    <p>
-      Мы предоставляем услуги аренды автокранов грузоподъёмностью 25 тонн для строительных и монтажных задач по Алматы и области. 
-      Выполняем подъём и перемещение стройматериалов, монтажные работы на объектах разного уровня, погрузочно-разгрузочные операции и демонтаж конструкций. 
-      Все машины проходят регулярное техническое обслуживание, операторы имеют высокую квалификацию и опыт работы на сложных объектах. 
-      Обеспечиваем оперативную подачу техники, гибкие сроки аренды и круглосуточную поддержку. Безопасность и качество работ — наши приоритеты.
-    </p>
-  </div>
-
-  <div class="contacts">
-    <a class="btn wh" href="https://wa.me/77756294555" target="_blank">📲 WhatsApp: +7 775 629 4555</a>
-    <a class="btn call" href="tel:+77756294555">📞 Позвонить</a>
-    <a class="btn email" href="mailto:Akzholadelbaev00747@gmail.com">✉️ Email</a>
-  </div>
-
-</div>
-
-<footer>© ИП GGG — аренда автокранов. Работаем круглосуточно.</footer>
-  
-
+  <footer>
+    © 2025 ИП GGG | Барлық құқықтар қорғалған
+  </footer>
 </body>
 </html>
-
